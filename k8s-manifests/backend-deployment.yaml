@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: rafaelvz/fortune-cookie-backend:latest
+          image: rafaelvzago/fortune-cookie-backend:1.0
           ports:
             - containerPort: 8080
           env:
